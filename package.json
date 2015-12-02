@@ -1,0 +1,38 @@
+{
+  "name": "stalk-my-friends",
+  "version": "0.0.0",
+  "description": "Unofficial Apple Find My Friends API client.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "madmod/stalk-my-friends",
+  "author": {
+    "name": "madmod",
+    "email": "madmodmail@gmail.com",
+    "url": "johnathanwells.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter nyan tests",
+    "start": "node cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "apple",
+    "find-my-friends"
+  ],
+  "dependencies": {
+    "express": "^4.13.3",
+    "https": "^1.0.0",
+    "meow": "^3.3.0",
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
