@@ -1,6 +1,6 @@
 {
   "name": "stalk-my-friends",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Unofficial Apple Find My Friends API client.",
   "license": "MIT",
   "main": "index.js",
